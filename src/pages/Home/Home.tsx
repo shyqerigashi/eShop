@@ -68,7 +68,7 @@ export const Home = () => {
                         <Slider {...settingsFavorite}>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
@@ -77,7 +77,7 @@ export const Home = () => {
                             </div>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
@@ -86,7 +86,7 @@ export const Home = () => {
                             </div>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
@@ -95,7 +95,7 @@ export const Home = () => {
                             </div>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
@@ -104,7 +104,7 @@ export const Home = () => {
                             </div>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
@@ -113,7 +113,7 @@ export const Home = () => {
                             </div>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
@@ -122,7 +122,7 @@ export const Home = () => {
                             </div>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
@@ -131,7 +131,7 @@ export const Home = () => {
                             </div>
                             <div className="fav_product_slider_item">
                                 <ProductBox
-                                    id={1}
+                                    id="1"
                                     isBig
                                     title="Basic Slim Fit T-Shirt"
                                     price="79.99"
