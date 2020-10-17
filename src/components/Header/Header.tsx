@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-import logo from './../../assets/images/logo.svg';
+import logo from './../../assets/images/logo-white.svg';
 
 //styles
 import "./Header.scss"
@@ -9,11 +9,14 @@ import "./Header.scss"
 export const Header = () => {
     return (
         <div className="Header">
-            <img src={logo} alt="Logo" className="logo" />
+            <Link to="/">
+                <img src={logo} alt="Logo" className="logo" />
+            </Link>
             <nav className="nav_wrapper">
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li><Link to="/men">Men</Link></li>
+                    <li><Link to="/woman">Woman</Link></li>
+                    <li><Link to="/kids">Kids</Link></li>
                 </ul>
             </nav>
         </div>
