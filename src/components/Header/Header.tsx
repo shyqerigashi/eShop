@@ -9,16 +9,20 @@ import "./Header.scss"
 export const Header = () => {
     return (
         <div className="Header">
-            <Link to="/">
-                <img src={logo} alt="Logo" className="logo" />
-            </Link>
-            <nav className="nav_wrapper">
-                <ul>
-                    <li><Link to="/men">Men</Link></li>
-                    <li><Link to="/woman">Woman</Link></li>
-                    <li><Link to="/kids">Kids</Link></li>
-                </ul>
-            </nav>
+            <div className="container">
+                <div className="Header__wrap">
+                    <Link to="/">
+                        <img src={logo} alt="Logo" className="logo" />
+                    </Link>
+                    <nav className="nav_wrapper">
+                        <ul>
+                            <li><Link to="/men">Men</Link></li>
+                            <li><Link to="/woman">Woman</Link></li>
+                            <li><Link to="/kids">Kids</Link></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     )
 }

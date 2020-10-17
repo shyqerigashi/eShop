@@ -1,3 +1,66 @@
 .Home {
   width: 100%;
 }
+.banner_section {
+  position: relative;
+  width: 100%;
+  .slick-arrow {
+    width: 72px;
+    height: 72px;
+    background-color: #fff;
+    z-index: 9;
+    &:before {
+      color: #000;
+    }
+  }
+  .slick-next {
+    right: 160px;
+    bottom: 60px;
+    top: unset;
+  }
+  .slick-prev {
+    right: 250px;
+    bottom: 60px;
+    top: unset;
+    left: unset;
+  }
+  .slick-disabled {
+    background-color: rgba($color: #fff, $alpha: 0.12);
+    &:before {
+      color: #fff;
+    }
+  }
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  &:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  &__content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    h2 {
+      max-width: 640px;
+      font-size: 66px;
+      font-weight: bold;
+      line-height: 77px;
+      color: #fff;
+    }
+  }
+}

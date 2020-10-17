@@ -1,12 +1,17 @@
 .Header {
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 25px;
-  background-color: #135c3a;
+  position: fixed;
+  z-index: 9;
+  left: 0;
+  top: 0;
   .logo {
     width: 50px;
+  }
+  &__wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 .nav_wrapper {
