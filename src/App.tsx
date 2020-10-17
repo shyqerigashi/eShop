@@ -11,7 +11,7 @@ import { Header } from './components/Header/Header';
 
 //Pages
 import { Home } from './pages/Home/Home';
-import { Contact } from './pages/Contact/Contact';
+import { Products } from './pages/Products/Products';
 import { ErrorPage } from './pages/ErrorPage/ErrorPage';
 
 //Styles
@@ -24,7 +24,7 @@ function App() {
         <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/products" component={Products} />
           <Route component={ErrorPage} />
         </Switch>
         <Footer />
